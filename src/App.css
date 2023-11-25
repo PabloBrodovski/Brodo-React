@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  background-color: #1e1e1e;
+  align-items: start !important;
+}
+
+.navbar {
+  width: 100vw;
+  font-weight: bold;
+  position: sticky;
+  top: 0px;
+}
+
+h2 {
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.contenedor {
+  margin: 25px;
+  padding: 10px;
+}
+
+.seccion-titulo {
+  font-size: xx-large;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.seccion-texto {
+  color: aliceblue;
+  font-size: larger;
+  font-weight: 300;
+}
+
+.producto {
+  /* margin: 10px 20px 10px 0px; */
+  box-shadow: 1px 1px 4px rgb(101, 101, 101);
+  border-radius: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+.imagen {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.parrafo-imagen {
+  color: aliceblue;
+}
+
+.tabla {
+  width: 100vw;
+  margin: 10px;
+}
+
+
+.logo {
+  margin-top: 20px;
+}
+
+.footer {
+  color: aliceblue;
+  text-align: center;
+}
+
+.footer-texto1 {
+  font-size: 2.5rem;
+  font-family: 'Audiowide', cursive;
+  color: aliceblue;
+}
+
+.footer-texto2 {
+  font-size: 1.5rem;
+  font-family: 'Audiowide', cursive;
+  color: aliceblue;
+}
+
+.contacto{
+  color: aliceblue;
+  margin: 0 5px 0 10px;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+
+.logo-contacto {
+  margin: 5px;
+}
