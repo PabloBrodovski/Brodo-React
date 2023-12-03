@@ -1,30 +1,18 @@
 import React from "react";
+import logo from "../img/favicon.png";
+import ImagenDeInicio from "../img/ImagenDeInicio.jpg";
 
 const Inicio = () => {
     return (
     <>
-        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel" Interval="1000">
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img src="/src/img/carrusel-1.jpg" className="d-block w-100"/>
-                </div>
-                <div className="carousel-item">
-                    <img src="/src/img/carrusel-2.jpg" className="d-block w-100"/>
-                </div>
-                <div className="carousel-item">
-                    <img src="/src/img/carrusel-3.jpg" className="d-block w-100"/>
-                </div>
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
+        <div className="container text-center">
+            <img className="logo" src={logo} height={200} />
+            <p className="footer-texto1">Brodo</p>
+            <p className="footer-texto2">Gráfica - Estampados - Fotografía</p>
         </div>
-
+        <div className="container text-center">
+            <img className="img-fluid" src={ImagenDeInicio} height={200} />
+        </div>
         <div className="contenedor text-center">
             <h2 className="seccion-titulo">¿Quienes somos?</h2>
                 <p className="seccion-texto">

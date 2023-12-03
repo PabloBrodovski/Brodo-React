@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../img/favicon.png";
 
 const NavBar = () => {
     return (
     <>
         <nav className="navbar navbar-expand-md bg-body-tertiary">
             <div className="container-fluid">
-                <img src="./src/img/favicon.png" height={30}/>
+                <img src={logo} height={30}/>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
