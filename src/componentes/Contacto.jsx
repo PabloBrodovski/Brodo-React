@@ -3,12 +3,13 @@ import "../App.css";
 import ubicacion from "../img/ubicacion.svg";
 import whatsapp from "../img/whatsapp.svg";
 import mail from "../img/mail.svg";
+import logo from "../img/favicon.png"
 
 const Contacto = () => {
   return (
     <>
         <div className="container text-center">
-            <img className="logo" src="./src/img/favicon.png" height={200} />
+            <img className="logo" src={logo} height={200} />
             <p className="footer-texto1">Brodo</p>
             <p className="footer-texto2">Gráfica - Estampados - Fotografía</p>
         </div>
