@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Inicio from './componentes/Inicio'
 import NavBar from './componentes/NavBar'
 import Footer from './componentes/Footer'
-import Inicio from './componentes/Inicio'
 import Grafica from './componentes/Grafica'
 import Estampados from './componentes/Estampados'
 import Fotografia from './componentes/Fotografia'
@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <NavBar/>
         <Routes>
-          <Route path='/Inicio' element={<Inicio/>}/>
+          <Route path='/' element={<Inicio/>}/>
           <Route path='/Grafica' element={<Grafica/>}/>
           <Route path='/Estampados' element={<Estampados/>}/>
           <Route path='/Fotografia' element={<Fotografia/>}/>

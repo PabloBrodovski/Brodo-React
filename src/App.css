@@ -90,3 +90,9 @@ h2 {
 .logo-contacto {
   margin: 5px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer-texto2 {
+    font-size: 1rem;
+  }
+}

@@ -8,7 +8,7 @@ const Inicio = () => {
         <div className="container text-center">
             <img className="logo" src={logo} height={200} />
             <p className="footer-texto1">Brodo</p>
-            <p className="footer-texto2">Gráfica - Estampados - Fotografía</p>
+            <p className="footer-texto2" tex>Gráfica - Estampados - Fotografía</p>
         </div>
         <div className="container text-center">
             <img className="img-fluid" src={ImagenDeInicio} height={200} />
