@@ -47,7 +47,7 @@ const Precios = () => {
               </tr>
               <tr>
                 <td>20x30cm</td>
-                <td>$2.00</td>
+                <td>$2.000</td>
                 <td>$1.900</td>
                 <td>$1.800</td>
                 <td>$1.750</td>
@@ -326,8 +326,8 @@ const Precios = () => {
               </tr>
               <tr>
               <td>Estampado o sublimado en mangas</td>
-                <td>$1.00</td>
-                <td>$1.00</td>
+                <td>$1.000</td>
+                <td>$1.000</td>
                 <td>$800</td>
                 <td>$800</td>
                 <td>$600</td>
